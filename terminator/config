@@ -1,0 +1,212 @@
+[global_config]
+  enabled_plugins = InactivityWatch, ActivityWatch, TerminalShot, Logger, LaunchpadBugURLHandler
+  inactive_color_offset = 0.54
+  suppress_multiple_term_dialog = True
+[keybindings]
+  broadcast_all = None
+  broadcast_group = None
+  broadcast_off = None
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 37c899cc-d1d4-4b40-9cc9-f897c9bce749
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1920, 1065
+      title = fish  /home/jme/work/bis
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 533
+      ratio = 0.500469483568
+      type = VPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 576
+      ratio = 0.3
+      type = HPaned
+    [[[child4]]]
+      order = 1
+      parent = child2
+      position = 672
+      ratio = 0.500372300819
+      type = HPaned
+    [[[child7]]]
+      order = 1
+      parent = child1
+      position = 576
+      ratio = 0.3
+      type = HPaned
+    [[[child9]]]
+      order = 1
+      parent = child7
+      position = 682
+      ratio = 0.5078183172
+      type = HPaned
+    [[[terminal10]]]
+      order = 0
+      parent = child9
+      profile = default
+      type = Terminal
+      uuid = 8421ce5b-61b9-4ca5-ab43-b72f7f606fe4
+    [[[terminal11]]]
+      order = 1
+      parent = child9
+      profile = default
+      type = Terminal
+      uuid = 17dbcc10-6535-41ee-8bee-0f182d2d1a3d
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 12578673-6e2b-4eec-8f87-133eb04cc15e
+    [[[terminal5]]]
+      order = 0
+      parent = child4
+      profile = default
+      type = Terminal
+      uuid = 37c899cc-d1d4-4b40-9cc9-f897c9bce749
+    [[[terminal6]]]
+      order = 1
+      parent = child4
+      profile = default
+      type = Terminal
+      uuid = 863cdbae-5639-4b46-902f-56413d29d044
+    [[[terminal8]]]
+      order = 0
+      parent = child7
+      profile = default
+      type = Terminal
+      uuid = c56eb294-52a4-4c7e-ad8e-a09c4822a7cd
+  [[6winLay]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 37c899cc-d1d4-4b40-9cc9-f897c9bce749
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1920, 1065
+      title = fish  /home/jme/work/bis
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 533
+      ratio = 0.500469483568
+      type = VPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 576
+      ratio = 0.3
+      type = HPaned
+    [[[child4]]]
+      order = 1
+      parent = child2
+      position = 672
+      ratio = 0.500372300819
+      type = HPaned
+    [[[child7]]]
+      order = 1
+      parent = child1
+      position = 576
+      ratio = 0.3
+      type = HPaned
+    [[[child9]]]
+      order = 1
+      parent = child7
+      position = 682
+      ratio = 0.5078183172
+      type = HPaned
+    [[[terminal10]]]
+      order = 0
+      parent = child9
+      profile = default
+      type = Terminal
+      uuid = 8421ce5b-61b9-4ca5-ab43-b72f7f606fe4
+    [[[terminal11]]]
+      order = 1
+      parent = child9
+      profile = default
+      type = Terminal
+      uuid = 17dbcc10-6535-41ee-8bee-0f182d2d1a3d
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 12578673-6e2b-4eec-8f87-133eb04cc15e
+    [[[terminal5]]]
+      order = 0
+      parent = child4
+      profile = default
+      type = Terminal
+      uuid = 37c899cc-d1d4-4b40-9cc9-f897c9bce749
+    [[[terminal6]]]
+      order = 1
+      parent = child4
+      profile = default
+      type = Terminal
+      uuid = 863cdbae-5639-4b46-902f-56413d29d044
+    [[[terminal8]]]
+      order = 0
+      parent = child7
+      profile = default
+      type = Terminal
+      uuid = c56eb294-52a4-4c7e-ad8e-a09c4822a7cd
+  [[vpn]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = ea74de51-946f-4150-a2b8-d9e8883e5e58
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 924:365
+      size = 654, 378
+      title = jme@mezitjan:~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 325
+      ratio = 0.5
+      type = HPaned
+    [[[terminal2]]]
+      command = ""
+      directory = ""
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = f59d009b-25af-476d-a3e5-90b34539627c
+    [[[terminal3]]]
+      order = 1
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = ea74de51-946f-4150-a2b8-d9e8883e5e58
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.82
+    cursor_color = "#aaaaaa"
+    custom_command = fish
+    font = Fantasque Sans Mono 10
+    scrollback_infinite = True
+    scrollback_lines = 5000
+    use_custom_command = True
+    use_system_font = False
+  [[vpn]]
+    cursor_color = "#aaaaaa"
+    custom_command = terminal
+    use_custom_command = True
